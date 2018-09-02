@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.section {
+    width: 428px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #fff;
+}
+
+.content {
+    width: 980px;
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    margin: 10px auto 20px;
+}

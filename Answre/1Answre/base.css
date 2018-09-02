@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+* {
+  color: #333;
+  /* box-sizing: border-box; */
+  font-family: font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;;
+}
+
+html {
+  background: linear-gradient(-10deg, #cff29d, #edde9e);
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+body {
+  padding: 50px;
+}
+
+code {
+  margin: 1px 5px;
+  padding: 2px 5px 1px 5px;
+  font-family: monospace;
+  border-radius: 2px;
+  border: 1px dotted #333;
+}
+
+p {
+  margin: 25px 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.outlined {
+  height: 200px;
+  border: 1px solid #333;
+  margin-bottom: 50px;
+}
+
+.container > * {
+  color: #333;
+  /* border-radius: 2px; */
+  /*margin: 10px;*/
+  text-align: center;
+}
+
+.container > a:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  transition: background-color ease 0.5s;
+}
+
+.container p {
+    text-align:left;
+}

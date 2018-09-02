@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.section {
+	margin: 0.5em 0;
+	border: 5px solid #223A55;
+	background-color: #6FB0FB;
+}
+
+h2 {
+	margin: 0;
+	padding: 0.2em 8px;
+	float: left;
+	width: 200px;
+	color: #fff;
+	background-color: #416FA4;
+	font-family: font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+	font-weight: bold;
+	font-size: 120%;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 0.4em 4px;
+	margin-left: 220px;
+	padding: 0.4em 12px;
+	line-height: 1.5;
+	color:#416FA4;
+	background-color: #fff;
+	font-size: 80%;
+}
